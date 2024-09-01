@@ -1,13 +1,38 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body {
+  
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    position: relative;
+    
+    /* background-color: #f5f5f5; Light Gray */
+    /* background-color: #f8f8f8; White Smoke */
+    /* background-color: #f5f5dc; Beige */
+    /* background-color: #fffff0; Ivory */
+    /* background-color: #e0f7fa; Light Cyan */
+    /* background-color: #333333; Dark Charcoal */
+    /* background-color: #001f3f; Navy Blue */
+    /* background-color: #2f4f4f; Slate Gray */
+    /* background-color: #556b2f; Dark Olive Green */
+    /* background-color: #2c003e; Deep Purple */
+    /* background-color: #0a0a23; Black with Blue Tint */
+    /* background-color: #e0e0e0; Soft Gray */
+    /* background-color: #d9eefd; Pale Blue */
+    /* background-color: #f5f5dc; Light Beige */
+    /* background-color: #f5f5f5; White Smoke */
+    /* background-color: #fffff0; Ivory */
+   /*  background-color: #f3e5f5; /*Light Lavender */
+
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.t{
+
 }
