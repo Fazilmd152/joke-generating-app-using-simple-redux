@@ -38,7 +38,7 @@ setValid(true)
 
 
   const bName =
-    category.length > 15 ? category.substring(0, 14) + "..." : category;
+    category.length > 15 ? category.substring(0, 14) + " . . ." : category;
 
   
 
