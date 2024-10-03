@@ -1,6 +1,5 @@
 import { useSelector } from "react-redux";
 import { useState } from "react";
-import Loading from "./loading";
 import JokeCategories from "./JokeCategories";
 import Joke from "./Joke"
 import styles from "../../styles";

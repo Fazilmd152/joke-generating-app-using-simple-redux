@@ -1,4 +1,4 @@
-import { ClipLoader, BeatLoader, HashLoader } from "react-spinners";
+import { ClipLoader } from "react-spinners";
 
 const override = {
   display: "block",

@@ -1,7 +1,6 @@
 import { useDispatch } from "react-redux";
 import { fetchJoke } from "../JokeSlice";
 import styles from "../styles";
-import { ClipLoader } from "react-spinners";
 import Loading from "./joke-section/loading";
 import { useSelector } from "react-redux"
 
